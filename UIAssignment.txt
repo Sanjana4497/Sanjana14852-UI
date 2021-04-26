@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>UI Sample</title>
+           <!--<style>
+
+            </style> -->
+        </head>
+        <body>
+            <header>
+           <img src="https://www.mastek.com/sites/default/files/header-icons/mastek-logo-with-strapline.png" 
+           alt="Mastek logo">
+
+           <a href="#">What we do</a>
+           <a href="#">Who we help</a>
+           <a href="#">Insights</a>
+           <a href="#">Who we are</a>
+
+           
+           </header>
+          <div style="background-image: url('https://www.mastek.com/sites/default/files/2018-05/Home-office-background-image.jpg');">  
+           <h1 style="text-align: left; padding-left: 50px;">Home Office</h1>
+           <h2 style="padding-left: 50px;">Home Office is the lead <br> government departments for <br> immigration and passports,
+            <br> drug policy, crime, counter- <br>terrorism and police</h2> </div> 
+            
+            <div style="float:left; width:80%  ; padding-left: 50px;"> 
+                <h1>Client insight</h1>
+                <h2>Introduced the IPT (immigration <br> Platform Technologies) <br> Programme to deliver 
+                    flexible, <br> digitally driven IT systems and <br> processes that support UK visas
+                     <br> and immigration, enforcement <br> and border force</h2>
+                </div>
+
+                <div style="float:right; width:80% ; margin-left:500px ; padding-right: 50px;"> 
+                    <h2 align="right">The Challenge</h2>
+                    <p align="right">
+                        Selected Mastek to deliver two key processes, the Biometric <br> Residence Permit and 
+                        the Biometric Travel Document <br> components of the core IPT Programme infrastructure
+                        which <br> comprised: <br>
+                        > SSB (Shared Service Bus), a software component supporting <br> communication between immigration 
+                        and enforcement <br> systems. <br>
+                        > CDP (Common Data Platform), a single data platform <br> addressing varoius data sharing needs of 
+                        the Home Office and <br> other government departments.
+                
+                    </p>
+
+                    <h2 align="right" , margin-left:50px>The Solution</h2>
+                    <p align="right">
+                        Mastek designed built ,tested and delivered the SSB and the <br> CDP systems in line
+                        with the UK Government's Digital Services <br> (GDS) recommendations. <br> Focused on business outcomes by adopting IPT 
+                        processes into <br>Mastek's proven Enterprise Agile approach.
+            
+                    </p>
+                          
+            
+                    <h2 align="right">What we delivered <br> Data Quality</h2>
+            
+                    <p align="right">
+                       Resolved previous case-centric identities with a person centric, <br> 
+                       single identity view of customers. <br>
+                       Reduced data inconsistencies and risks.          
+                    </p>
+                
+                
+                    <h2 align="right">Efficiency</h2>
+                    <p align="right">Helping fast track verification for US work permits and visas by <br> providing 
+                        a consolidated view of customers biometric data. <br>
+            
+                    Ensured quick decision making through effivient and timely <br> data sharing with other
+                    government departments and with <br> partners stakeholders systems
+            
+                </p>
+            
+            
+                <h2 align="right">User Experience</h2>
+                    <p align="right">Delievered a relible user experience by ensuring secure <br> 
+                        messaging and service between various system. <br>
+                        Enhanced customer experience, reduced costs and lowered <br> opportunities for 
+                        fraud applications by enabling visas <br> aplicants  to both apply and pay online.
+            
+                    </p>
+                    <!-- <div class='footer'> -->
+                         <p><a href="mastek.com/resources">Back to resources</a> 
+
+        </body>
+    
+    </html>
