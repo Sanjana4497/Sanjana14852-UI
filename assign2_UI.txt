@@ -1,0 +1,171 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="img-container">
+       <div>
+            <img src="D:\training2021\UI Layer\UIWS\assignment2_ui\image_1.jpg" alt="image_1" width="200" 
+            height="200" onclick="image_1Click()"><br>
+            Image 1 Clicked: <span id="span1"></span>
+        </div>
+        <div>
+            <img src="D:\training2021\UI Layer\UIWS\assignment2_ui\image_2.jpg" alt="image_2" width="200" 
+            height="200" onclick="image_2Click()"><br>
+            Image 2 Clicked: <span id="span2"></span>
+        </div>
+        <div>
+            <img src="D:\training2021\UI Layer\UIWS\assignment2_ui\image_3.jpg" alt="image_3" width="200" 
+            height="200" onclick="image_3Click()"><br>
+           Image 3 Clicked: <span id="span3"></span>
+        </div>
+        <div>
+            <img src="D:\training2021\UI Layer\UIWS\assignment2_ui\image_4.jpg" alt="image_4" width="200" 
+            height="200" onclick="image_4Click()" ><br>
+            Image 4Clicked: <span id="span4"></span>
+        </div>
+        <div>
+            <img src="D:\training2021\UI Layer\UIWS\assignment2_ui\image_5.jpg" alt="image_5" width="200" 
+            height="200" onclick="image_5Click()"><br>
+            Image 5 Clicked: <span id="span5"></span>
+        </div> 
+    </div>
+</body>
+</html>
+---------------------------------------------------------------------------
+
+main.js
+
+var counter1 = 0;
+function image_1Click()
+{
+
+ 
+
+    console.log('Image clicked');
+    counter1 = counter1 +1;
+   
+    let span1 = document.getElementById("span1");
+   console.log(span1);
+    span1.innerHTML = counter1;
+    console.log(counter1);
+   
+}
+var counter2 = 0;
+function image_2Click()
+{
+
+ 
+
+    console.log('Image clicked');
+    counter2 = counter2 +1;
+   
+    let span2 = document.getElementById("span2");
+   console.log(span2);
+    span2.innerHTML = counter2;
+    console.log(counter2);
+   
+}
+var counter3 = 0;
+function image_3Click()
+{
+
+ 
+
+    console.log('Image clicked');
+    counter3 = counter3 +1;
+   
+    let span3 = document.getElementById("span3");
+   console.log(span3);
+    span3.innerHTML = counter3;
+    console.log(counter3);
+   
+}
+var counter4 = 0;
+function image_4Click()
+{
+
+    console.log('Image clicked');
+    counter4 = counter4 +1;
+   
+    let span4 = document.getElementById("span4");
+   console.log(span4);
+    span4.innerHTML = counter4;
+    console.log(counter4);
+   
+}
+var counter5 = 0;
+function image_5Click()
+{
+    
+    console.log('Image clicked');
+    counter5 = counter5 +1;
+   
+    let span5 = document.getElementById("span5");
+   console.log(span5);
+    span5.innerHTML = counter5;
+    console.log(counter5);
+   
+}
+
+----------------------------------------------------------------------------
+
+style.css
+
+*{margin: 0;padding: 0;}
+.image-container{
+    width: 100;
+    height: 100vh;
+    color: red;
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    
+    
+}
+image{
+    padding: 30px;
+}
+.image_1.jpg{ 
+    float: left;
+    width: 20%;
+    height: 100px;
+  
+    margin: 20px;
+}
+.image_2.jpg{
+    float: left;
+    width: 20%;
+    height: 100px;
+  
+    margin: 20px;
+}
+.image_3.jpg{
+    float: left;
+    width: 20%;
+    height: 100px;
+    
+    margin: 20px;
+}
+.image_4.jpg{
+    float: left;
+    width: 20%;
+    height: 100px;
+    
+    margin: 20px;
+}
+.image_5.jpg{
+    float: left;
+    width: 20%;
+    height: 100px;
+   
+    margin: 20px;
+}
