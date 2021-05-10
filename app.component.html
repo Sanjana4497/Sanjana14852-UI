@@ -1,0 +1,38 @@
+<!-- Toolbar -->
+
+<div class="toolbar" role="banner">
+  <h1>Welcome to Angular app</h1> 
+  <br></div>
+  <!-- <h1>Welcome to Angular app</h1> -->
+
+  <div class="content" role="main">
+  <table width="100%">
+    <tr>
+      <td>
+        <a routerLink="/">  Home</a>
+      </td>
+      <td>
+        <a routerLink="/service-lines">  Service Lines</a>
+      </td>
+      <td>
+        <a routerLink="customers">Customers</a>
+      </td>
+      <td>
+        <a routerLink="about-us"> About us </a>
+      </td>
+    </tr>
+  </table>
+  </div>
+  <div class="content" role="main">
+    <!-- <div class="spacer"></div> -->
+
+
+  <!-- Highlight Card -->
+  <div class="card highlight-card card-small">
+    <span>{{ title }} app is running!</span>
+  </div>
+  <!-- <app-emp></app-emp> -->
+  </div>
+<!-- output of your router module -->
+
+<router-outlet></router-outlet>
